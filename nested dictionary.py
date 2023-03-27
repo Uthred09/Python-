@@ -1,4 +1,4 @@
-# dic = {'brand': 'ford', 'price': 50000, 'Model': 'Mustang'}
+#dic = {'brand': 'ford', 'price': 50000, 'Model': 'Mustang'}
 
 # for i , j in dic.items():
 #     print(i,j)
