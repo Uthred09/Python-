@@ -11,7 +11,8 @@ def displayInventory(dic):
 # displayInventory(inventory)
 
 dragonLoot = ['goldcoin' , 'goldcoin' , 'ruby']
-
+# first a list is iterated and check which each element at indix if the condition satisfied a newiteam value is increased,
+#then, olditem value and new item value added to make total item,finally the dictionary value is updated with total iteam 
 def addToInventory(inventory, addedItems):
     newItem = 0
     for i in range(len(addedItems)):
