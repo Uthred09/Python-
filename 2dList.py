@@ -56,7 +56,16 @@ def list_():
 def print_():
     main = list_()
     for i in range(len(main)):
-        for j in range (len(main[i])):
-            print(main[i])
-            
-print_()
+        print(main[i][j])
+
+A = [[102,56, 98],
+    [150, 98, 18],
+    [2, 66, 7]]
+
+for i in range(len(A)):
+    print(A[i])
+    for j in range(len(A[i])):
+       print(A[i][j], A[i][j+1], A[i][j+2])
+       break
+
+        
